@@ -39,9 +39,9 @@ const Game = ({ setStartGame, updateGamesPlayed, updateMaxwellFound }) => {
       <div className={`modal ${done && !boxes[catIndex] ? `open` : ""}`}>
         <div className="modal__wrapper">
           <p className="modal__header">You don't found Maxwell :(</p>
-          <a className="modal__button" href="#" onClick={stopGameHandler}>
+          <button className="modal__button" onClick={stopGameHandler}>
             OK
-          </a>
+          </button>
         </div>
       </div>
       <div className="box-container">
