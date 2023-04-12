@@ -1,0 +1,12 @@
+.box {
+  margin: 0 auto;
+  background: url("../../assets/box.png");
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.box__img {
+  width: 100px;
+  height: 100px;
+}

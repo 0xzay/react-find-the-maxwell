@@ -1,0 +1,29 @@
+@import "./reset.css";
+
+a,
+button,
+body {
+  font-family: "Rubik", sans-serif;
+  color: #141414;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+button {
+  background-color: white;
+  padding: 1em 1.5em;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  border: 1px solid #141414;
+}
+
+button:hover {
+  background-color: #ececec;
+  transition: all 0.3s;
+}
+
+button:active {
+  background-color: #d8d8d8;
+}

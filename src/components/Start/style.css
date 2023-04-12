@@ -1,0 +1,22 @@
+.start {
+  text-align: center;
+}
+
+.start__img {
+  height: 400px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.start__header {
+  margin-bottom: 20px;
+}
+
+.start__buttons {
+  max-width: 400px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 100px;
+}
